@@ -34,7 +34,7 @@
 ```
 quadrado_1 = Quadrado(2)
 ```
-### Nesse caso, estamos instânciando o objeto quadrado_1 a classe Quadrado. O número intero 2, entre parentes, é o atributo do objeto criado, ou seja, o lado do quadrado. Uma coisa que pode estar te deixando confuso seria o o init antes de passar os atributos, e o self sendo passado como atributo. Vamos por partes:
+### Nesse caso, estamos instânciando o objeto quadrado_1 a classe Quadrado. O número inteiro 2, entre parentes, é o atributo do objeto criado, ou seja, o lado do quadrado. Uma coisa que pode estar te deixando confuso seria o o init antes de passar os atributos, e o self sendo passado como atributo. Vamos por partes:
 - Self -> Seria  a referência do objeto que está sendo construido em memória. Estamos dizendo, o Atributo que está sendo atribuido se referência ao atributo em memória. Ficou meio redundande, mas seria mais ou menos isso:
 ``` 
    self.(atributo_memória) = (atributo_sendo_atribuido)
